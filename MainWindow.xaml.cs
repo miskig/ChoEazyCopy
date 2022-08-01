@@ -1556,11 +1556,11 @@ namespace ChoEazyCopy
             }
             else
             {
-                if (MessageBox.Show("Are you sure want to close the application?", Caption, MessageBoxButton.YesNo, MessageBoxImage.Stop) == MessageBoxResult.No)
-                {
-                    e.Cancel = true;
-                    return;
-                }
+                //if (MessageBox.Show("Are you sure want to close the application?", Caption, MessageBoxButton.YesNo, MessageBoxImage.Stop) == MessageBoxResult.No)
+                //{
+                //    e.Cancel = true;
+                //    return;
+                //}
             }
 
             e.Cancel = SaveSettings();
